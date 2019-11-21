@@ -1,20 +1,21 @@
 {
-    "name": "sanovskiy/code-profiler",
-    "type": "library",
-    "description": "Library to profile code",
-    "license": "proprietary",
-    "authors": [
-        {
-            "name": "Pavel Terentyev",
-            "email": "terentev.p@2wtrade.com"
-        }
-    ],
-    "require": {
-        "php": "^7.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Sanovskiy\\CodeProfiler\\": "src"
-        }
+  "name": "sanovskiy/code-profiler",
+  "type": "library",
+  "description": "Library to profile code",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Pavel Terentyev",
+      "email": "terentev.p@2wtrade.com"
     }
+  ],
+  "require": {
+    "php": "^7.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sanovskiy\\CodeProfiler\\": "src"
+    }
+  }
 }
